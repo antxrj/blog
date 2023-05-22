@@ -12,6 +12,6 @@ jobs:
       - name: Deploy Ghost Theme
         uses: TryGhost/action-deploy-theme@v1
         with:
-          api-url: ${{ secrets.GHOST_ADMIN_API_URL }}
-          api-key: ${{ secrets.GHOST_ADMIN_API_KEY }}
+          api-url: https://gabriel-ribeiro.ghost.io/ghost/api/v3/content/
+          api-key: 646b7384ac56400001ea446d:601223b55d1f8e8163ea383551a83f5d44df7c6ac634a023198d406f46e9061b
           
